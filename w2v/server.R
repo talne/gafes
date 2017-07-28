@@ -1,7 +1,4 @@
 library(shiny)
-#library(rCharts)
-library("DBI")
-library("RMySQL")
 library("sparcl")
 library("ggplot2")
 library("Cairo")
