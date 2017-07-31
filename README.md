@@ -1,14 +1,14 @@
 # gafes
 bibliothèques utiles pour les script :
-- library(shiny)
-- library("DBI")
-- library("RMySQL")
-- library("sparcl")
-- library("ggplot2")
-- library("Cairo")
-- library("ggrepel")
+- shiny (https://cran.r-project.org/web/packages/shiny/index.html)
+- DBI (https://cran.r-project.org/web/packages/DBI/index.html)
+- RMySQL (https://cran.r-project.org/web/packages/RMySQL/index.html)
+- sparcl (https://cran.r-project.org/web/packages/sparcl/index.html)
+- ggplot2 (https://cran.r-project.org/web/packages/ggplot2/index.html)
+- Cairo (https://cran.r-project.org/web/packages/Cairo/index.html)
+- ggrepel (https://cran.r-project.org/web/packages/ggrepel/index.html)
 
-fonction "fest.tag3" d'appel a la base de donnée clef_microblogs_tbl du compte miner sur phpmyadmin.
+fonction "fest.tag3" d'appel a la base de donnée clef_microblogs_tbl sur mysql.
 Base de données contenant 80 millions de tweets. Pour chaque tweet on a :
   - From_user (varchar)
   - From_user_id (varchar)
