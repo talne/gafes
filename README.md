@@ -5,6 +5,7 @@ Le programme affiche ensuite une analyse en composantes principale des mots choi
 On a ensuite les boxplots des effectifs par classes qui sont repréqentés.
 Les mots de bases sont dans YSM4.csv, qui comprend 119 mots qu'on peut classer selon plusieurs catégories : Théâtre, Jardin, Cinéma, Musique, Villes où il fait bon vivre, Villes célèbres pour leur festival de musique, Villes célèbres pour leur festival de théâtre et Villes célèbres pour leur festival de cinéma.
 L'utilisateurs a aussi possibilité de rajouter les mots qu'il désire qui seront stockés dans dfa.csv.
+Ces deux fichiers sont appelés pour les graphiques, il seront donc a mettre a jour et à adapter suivant vos envies. 
 Il suffira de cocher ou décocher les mots voulu pour faire évoluer les graphiques.
 
 Le programme w2v récupère lui les vecteurs grâce a la méthode word2vec pour chaque mot et affiche ainsi la cah et l'ACP grâce au cosinus calculé entre chaque vecteurs. 
