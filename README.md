@@ -9,7 +9,7 @@ bibliothèques utiles pour les script :
 - ggrepel (https://cran.r-project.org/web/packages/ggrepel/index.html)
 
 fonction "fest.tag3" d'appel a la base de donnée clef_microblogs_tbl sur mysql.
-Base de données contenant 80 millions de tweets. Pour chaque tweet on a :
+Base de données contenant 80 millions de tweets. Pour chaque tweet il faut les champs suivant :
   - From_user (varchar)
   - From_user_id (varchar)
   - Source (varchar)
@@ -18,6 +18,9 @@ Base de données contenant 80 millions de tweets. Pour chaque tweet on a :
   - Day (enum)
   - Seconds (int)
   - CONTENT (text) avec Index FULLTEXT
+
+DATE et CONTENT sont les champs indispensables a l'appel "fest.tag3".
+
 
 "fest.tag3" calcule et récupère les effectifs de tweetes content un mot "w" pour chacune des 78 semaines. Toute les valeurs sont également
 lissées par moyenne mobile d'ordre deux.
