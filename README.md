@@ -29,3 +29,12 @@ lissées par moyenne mobile d'ordre deux.
 Appel system de programmes python pour appliquer le code "extractVectors.py" aux mots récupérés dans "liste_rajout.txt" et récupérer leur représentation vectorielles dans "extract_rajout.csv" : 
 system("./Gafes/extractVectors.py -i ./Gafes/clef_microblogs_tbl_full.vector.bin -o ./Gafes/wordextract/extract_rajout.csv -w ./Gafes/wordlist/liste_rajout.txt")
 
+"extractVectors.py" appel les fonctions :
+- pprint (https://pypi.python.org/pypi/pprintpp)
+- nltk (https://pypi.python.org/pypi/nltk)
+- gensim (https://pypi.python.org/pypi/gensim)
+- collections (https://pypi.python.org/pypi/collections-extended/0.9.0)
+- csv (https://pypi.python.org/pypi/csv)
+- sys (https://pypi.python.org/pypi/sys)
+- getopt (https://pypi.python.org/pypi/micropython-getopt)
+- re (https://pypi.python.org/pypi/RE)
