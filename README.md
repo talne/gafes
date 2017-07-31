@@ -1,5 +1,8 @@
 # gafes
 
+
+Les trois programmes sont des interfaces shiny visualisables sur https://mc2.talne.eu/shiny/gafes/ qui ont pour but d'analyser les répprochements et les oppositions entre les mots dans des microblogs ciblés sur les festivals. Ainsi, on a utilisé deux méthodes de visualisation : la classification ascendante hiérarchique et l'analyse en composante principale. On a aussi pu comparer deux méthodes de rapprochements : les rapprochements temporel par corrélations d'effectifs par semaines, et les rapprochements word2vec par distances cosinus entre les vecteurs représentatifs de chaque mots.
+
 Le programme ts c récupère les occurences des tweets par semaines et affiche la classificatiuon hiérarchique calculé grâce aux corrélations entre les mots.On a ainsi des rapprochements temporels. Trois méthodes de classifications hiérarchiques sont proposées. 
 Le programme affiche ensuite une analyse en composantes principale des mots choisi ainsi qu'une autre par classes. On a donc possibilité de choisir le nombre de classes voulu. La coupe sera représentée sur la cah.
 On a ensuite les boxplots des effectifs par classes qui sont repréqentés.
@@ -14,7 +17,6 @@ Ainsi la dépendance aux appels python ainsi que les récupérations vectorielle
 
 Enfin, Ts w2v est un programme qui comprend pareil que w2v mais avec en plus des classification qui sont fait par regroupement vectoriel et qui ensuite somme les effectifs de chaque classe créée. On obtient ainsi une ACP par classes ain si que les boxplot des effectifs sommés. Ce programme nécessite donc les récupérations de vecteurs ainsi que d'effectifs.
 
-Voir interface : https://mc2.talne.eu/shiny/gafes/
 
 
 bibliothèques utiles pour les script :
