@@ -1,12 +1,12 @@
 # gafes
 bibliothèques utiles pour les script :
-library(shiny)
-library("DBI")
-library("RMySQL")
-library("sparcl")
-library("ggplot2")
-library("Cairo")
-library("ggrepel")
+- library(shiny)
+- library("DBI")
+- library("RMySQL")
+- library("sparcl")
+- library("ggplot2")
+- library("Cairo")
+- library("ggrepel")
 
 fonction "fest.tag3" d'appel a la base de donnée clef_microblogs_tbl du compte miner sur phpmyadmin.
 Base de données contenant 80 millions de tweets. Pour chaque tweet on a :
