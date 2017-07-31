@@ -9,7 +9,7 @@ bibliothèques utiles pour les script :
 - ggrepel (https://cran.r-project.org/web/packages/ggrepel/index.html)
 
 fonction "fest.tag3" d'appel a la base de donnée clef_microblogs_tbl sur mysql.
-Base de données contenant 80 millions de tweets. Pour chaque tweet il faut les champs suivant :
+Base de données de tweets. Pour chaque tweet il faut les champs suivant :
   - From_user (varchar)
   - From_user_id (varchar)
   - Source (varchar)
@@ -17,7 +17,7 @@ Base de données contenant 80 millions de tweets. Pour chaque tweet il faut les 
   - Date (date)
   - Day (enum)
   - Seconds (int)
-  - CONTENT (text) avec Index FULLTEXT
+  - CONTENT (text) avec Index FULLTEXT obligatoire
 
 DATE et CONTENT sont les champs indispensables a l'appel "fest.tag3".
 
