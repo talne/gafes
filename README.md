@@ -1,4 +1,19 @@
 # gafes
+
+Le programme ts c récupère les occurences des tweets par semaines et affiche la classificatiuon hiérarchique calculé grâce aux corrélations entre les mots.On a ainsi des rapprochements temporrels. Trois méthodes de classifications hiérarchiques sont proposées. 
+Le programme affiche ensuite une analyse en composantes principale des mots choisi ainsi qu'une autre par classes. On a donc possibilité de choisir le nombre de classes voulu. La coupe sera représentée sur la cah.
+On a ensuite les boxplots des effectifs par classes qui sont repréqentés.
+Les mots de bases sont dans YSM4.csv, et les mots rejoutés par les utilisateurs sont dans dfa.csv.
+
+Le programme w2v récupère lui les vecteurs grâce a la méthode word2vec pour chaque mot et affiche ainsi la cah et l'ACP grâce au cosinus calculé entre chaque vecteurs. 
+On a ainsi des rapprochements par contexte dans les phrases.
+Ainsi la dépendance aux appels python ainsi que les récupérations vectorielles ne sont pas nécessaires pour le programme ts c.
+
+Enfin, Ts w2v est un programme qui comprend pareil que w2v mais avec en plus des classification qui sont fait par regroupement vectoriel et qui ensuite somme les effectifs de chaque classe créée. On obtient ainsi une ACP par classes ain si que les boxplot des effectifs sommés.
+
+Voir interface : https://mc2.talne.eu/shiny/gafes/
+
+
 bibliothèques utiles pour les script :
 - shiny (https://cran.r-project.org/web/packages/shiny/index.html)
 - DBI (https://cran.r-project.org/web/packages/DBI/index.html)
