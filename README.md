@@ -3,7 +3,9 @@
 Le programme ts c récupère les occurences des tweets par semaines et affiche la classificatiuon hiérarchique calculé grâce aux corrélations entre les mots.On a ainsi des rapprochements temporels. Trois méthodes de classifications hiérarchiques sont proposées. 
 Le programme affiche ensuite une analyse en composantes principale des mots choisi ainsi qu'une autre par classes. On a donc possibilité de choisir le nombre de classes voulu. La coupe sera représentée sur la cah.
 On a ensuite les boxplots des effectifs par classes qui sont repréqentés.
-Les mots de bases sont dans YSM4.csv, et les mots rejoutés par les utilisateurs sont dans dfa.csv.
+Les mots de bases sont dans YSM4.csv, qui comprend 119 mots qu'on peut classer selon plusieurs catégories : Théâtre, Jardin, Cinéma, Musique, Villes où il fait bon vivre, Villes célèbres pour leur festival de musique, Villes célèbres pour leur festival de théâtre et Villes célèbres pour leur festival de cinéma.
+L'utilisateurs a aussi possibilité de rajouter les mots qu'il désire qui seront stockés dans dfa.csv.
+Il suffira de cocher ou décocher les mots voulu pour faire évoluer les graphiques.
 
 Le programme w2v récupère lui les vecteurs grâce a la méthode word2vec pour chaque mot et affiche ainsi la cah et l'ACP grâce au cosinus calculé entre chaque vecteurs. 
 On a ainsi des rapprochements par contexte dans les phrases.
