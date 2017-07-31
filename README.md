@@ -1,7 +1,7 @@
 # gafes
 
 
-Les trois programmes sont des interfaces shiny visualisables sur tac.talne.eu qui ont pour but d'analyser les répprochements et les oppositions entre les mots dans des microblogs ciblés sur les festivals. Ainsi, on a utilisé deux méthodes de visualisation : la classification ascendante hiérarchique et l'analyse en composante principale. On a aussi pu comparer deux méthodes de rapprochements : les rapprochements temporel par corrélations d'effectifs par semaines, et les rapprochements word2vec par distances cosinus entre les vecteurs représentatifs de chaque mots.
+Les trois programmes sont des interfaces shiny visualisables sur tac.talne.eu qui ont pour but d'analyser les rapprochements et les oppositions entre les mots dans des microblogs ciblés sur les festivals. Ainsi, on a utilisé deux méthodes de visualisation : la classification ascendante hiérarchique et l'analyse en composante principale. On a aussi pu comparer deux méthodes de rapprochements : les rapprochements temporel par corrélations d'effectifs par semaines, et les rapprochements word2vec par distances cosinus entre les vecteurs représentatifs de chaque mots.
 
 Le programme ts c récupère les occurences des tweets par semaines et affiche la classificatiuon hiérarchique calculé grâce aux corrélations entre les mots.On a ainsi des rapprochements temporels. Trois méthodes de classifications hiérarchiques sont proposées. 
 Le programme affiche ensuite une analyse en composantes principale des mots choisi ainsi qu'une autre par classes. On a donc possibilité de choisir le nombre de classes voulu. La coupe sera représentée sur la cah.
